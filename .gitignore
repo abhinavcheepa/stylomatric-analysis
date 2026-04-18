@@ -1,0 +1,54 @@
+# ML checkpoints
+results/
+checkpoint/
+pos_model/
+*.pt
+*.bin
+*.model
+
+# tokenizer
+tokenizer.json
+vocab.txt
+
+# datasets
+data/
+dataset/
+data_ocean/
+
+# output
+output/
+
+# python
+__pycache__/
+*.pyc
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Your generated data (VERY IMPORTANT)
+dataset/
+results/
+
+# Large raw data (you should NOT upload books)
+data_ocean/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
